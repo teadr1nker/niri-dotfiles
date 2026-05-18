@@ -1,0 +1,5 @@
+// keybinds managed by niri-settings. Consider moving existing binds here.
+binds {
+    Mod+T hotkey-overlay-title="Open a Terminal" { spawn "konsole"; }
+    Mod+SHift+F hotkey-overlay-title="Open a File Manager" { spawn "nautilus"; }
+}

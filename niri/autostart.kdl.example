@@ -1,0 +1,7 @@
+// spawn-at-startup "waybar"
+spawn-at-startup "swayidle" "-w" \
+    "timeout" "300" "swaylock -f" \
+    "timeout" "3600" "systemctl suspend" \
+    "before-sleep" "swaylock -f"
+spawn-at-startup  "swaybg" "-i" "/home/tea/Documents/pawel-czerwinski-q1z5s5peT8E-unsplash.jpg" "-m" "fill"
+spawn-at-startup "nm-applet"
