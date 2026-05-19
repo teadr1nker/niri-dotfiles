@@ -80,7 +80,7 @@ button:hover {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #fc9003;
 }
 
 #mode {
@@ -137,7 +137,7 @@ button:hover {
 #battery.charging,
 #battery.plugged {
     color: #ffffff;
-    background-color: #26a65b;
+    background-color: #82ffc3;
 }
 
 @keyframes blink {
@@ -149,7 +149,7 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background-color: #fc9003;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -261,7 +261,7 @@ label:focus {
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
+    background-color: #fc9003;
 }
 
 #idle_inhibitor {
@@ -271,7 +271,7 @@ label:focus {
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
+    background-color: #fc9003;
     color: #2d3436;
 }
 
