@@ -610,6 +610,43 @@ binds {
     Mod+P { spawn-sh "bash $HOME/.config/fuzzel/powermenu.sh"; }
 }
 
+layer-rule {
+    match namespace="waybar"
+    // match namespace="swaync"
+    match namespace="launcher"
+    match at-startup=true
+    // match layer="top"
+
+    // Properties that apply continuously.
+
+    shadow {
+        off
+    }
+
+    geometry-corner-radius 6
+    place-within-backdrop true
+    //baba-is-float true
+
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 3
+    }
+
+    popups {
+        opacity 0.9
+        geometry-corner-radius 15
+
+        background-effect {
+            xray true
+            blur true
+            noise 0.05
+            saturation 3
+        }
+    }
+}
+
 include "basicsettings.kdl" // Added by niri-settings
 
 include "keybinds.kdl" // Added by niri-settings
