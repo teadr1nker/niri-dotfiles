@@ -241,6 +241,13 @@
     },
     "niri/window": {
           "icon": true
-        }
+        },
+    "niri/workspaces": {
+   	"format": "{}",
+   	// "format-icons": {
+    // 		"active": "",
+    // 		"default": ""
+   	//     }
+      }
     }
 }

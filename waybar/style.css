@@ -43,8 +43,7 @@ button {
     border: none;
     border-radius: 15px;
     background-color: #7fc8ff;
-    min-width: 18px;
-    min-height: 18px;
+    min-width: 16px;
     margin: 2px;
 }
 
@@ -60,13 +59,8 @@ button:hover {
 }*/
 
 #workspaces button {
-    /*padding: 5px;*/
-    /*min-width: 15px;*/
-    /*width: 30px;*/
-    /*margin: 2px;*/
     background-color: transparent;
     color: #000000;
-    /*border-radius: 15px;*/
 }
 
 #workspaces button:hover {
@@ -104,9 +98,12 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
+#notifications,
 #mpd {
     padding: 0 15px;
     color: #ffffff;
+    border-radius: 15px;
+    margin: 2px;
 }
 
 #window,
@@ -127,6 +124,10 @@ button:hover {
 #clock {
     background-color: transparent;
     color: #000000;
+}
+
+#clock:hover {
+    background: rgba(0, 0, 0, 0.2);
 }
 
 #battery {
