@@ -55,6 +55,7 @@
   "widgets": [
     "volume",
     "inhibitors",
+    "mpris",
     "title",
     "dnd",
     "notifications"
