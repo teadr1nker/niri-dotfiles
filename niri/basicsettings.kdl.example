@@ -82,7 +82,7 @@ input {
         // left-handed
         click-method "clickfinger"
         scroll-method "two-finger"
-        accel-speed 0.20
+        accel-speed 0.0
         accel-profile "adaptive"
         tap-button-map "left-right-middle"
         scroll-factor 1.0

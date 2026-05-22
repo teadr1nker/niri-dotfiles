@@ -1,5 +1,3 @@
-.PHONY: script dependencies
-
 install:
 	bash scripts/make-links.sh
 
@@ -8,3 +6,9 @@ dependencies-dnf:
 
 copy:
 	bash scripts/copy-examples.sh
+
+update-waybar:
+	killall -SIGUSR2 waybar
+
+update-swaync:
+	swaync-client -R && swaync-client -rs

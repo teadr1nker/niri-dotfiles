@@ -614,7 +614,7 @@ layer-rule {
     match namespace="waybar"
     // match namespace="swaync"
     match namespace="launcher"
-    match at-startup=true
+    // match at-startup=true
     // match layer="top"
 
     // Properties that apply continuously.
