@@ -101,7 +101,7 @@ button:hover {
 #notifications,
 #mpd {
     padding: 0 15px;
-    color: #ffffff;
+    color: #000000;
     border-radius: 15px;
     margin: 2px;
     background-color: #7fc8ff;
@@ -166,12 +166,12 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #fc9003;
-    color: #ffffff;
+    color: #000000;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #7fc8ff;
-    color: #ffffff;
+    color: #000000;
 }
 
 #power-profiles-daemon.power-saver {
@@ -261,7 +261,7 @@ label:focus {
 
 #idle_inhibitor.activated {
     background-color: #fc9003;
-    color: #2d3436;
+    color: #000000;
 }
 
 #mpd {
