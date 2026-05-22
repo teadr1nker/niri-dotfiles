@@ -104,6 +104,7 @@ button:hover {
     color: #ffffff;
     border-radius: 15px;
     margin: 2px;
+    background-color: #7fc8ff;
 }
 
 #window,
@@ -164,26 +165,22 @@ button:hover {
 }*/
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
+    background-color: #fc9003;
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
+    background-color: #7fc8ff;
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
+    background-color: #82ffc3;
     color: #000000;
 }
 
 label:focus {
     background-color: #000000;
-}
-
-#memory {
-    background-color: #00000;
 }
 
 #disk {
@@ -235,10 +232,6 @@ label:focus {
 
 #custom-media.custom-vlc {
     background-color: #ffa000;
-}
-
-#temperature {
-    background-color: #f0932b;
 }
 
 #temperature.critical {
