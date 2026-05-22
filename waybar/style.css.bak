@@ -182,8 +182,13 @@ label:focus {
     background-color: #000000;
 }
 
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
 #memory {
-    background-color: #00000;
+    background-color: #9b59b6;
 }
 
 #disk {

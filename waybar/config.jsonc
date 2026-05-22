@@ -9,8 +9,10 @@
     // Choose the order of the modules
     "modules-left": [
         "niri/workspaces",
-        "sway/mode",
-        "sway/scratchpad"
+        "temperature",
+        "memory",
+        "cpu"
+
     ],
     "modules-center": [
         "niri/window"
@@ -19,6 +21,7 @@
         "privacy",
         "tray",
         "idle_inhibitor",
+        "power-profiles-daemon",
         "pulseaudio",
         // "network",
         // "power-profiles-daemon",
@@ -241,13 +244,5 @@
     },
     "niri/window": {
           "icon": true
-        },
-    "niri/workspaces": {
-   	"format": "{}",
-   	// "format-icons": {
-    // 		"active": "",
-    // 		"default": ""
-   	//     }
-      }
-    }
+        }
 }
