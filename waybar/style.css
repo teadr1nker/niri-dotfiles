@@ -98,11 +98,6 @@ button:hover {
     background-color: #7fc8ff;
 }
 
-/*#window,
-#workspaces {
-    margin: 0 4px;
-}*/
-
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -151,10 +146,6 @@ button:hover {
     animation-direction: alternate;
 }
 
-/*#power-profiles-daemon {
-    padding-right: 15px;
-}*/
-
 #power-profiles-daemon.performance {
     background-color: #fc9003;
     color: #000000;
@@ -196,11 +187,6 @@ label:focus {
     margin: 2px;
     border-radius: 15px;
 }
-
-/*#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
-}*/
 
 #wireplumber {
     background-color: #fff0f5;
@@ -269,9 +255,6 @@ label:focus {
 #language {
     background: transparent;
     color: #000000;
-    /*padding: 0 5px;*/
-    /*margin: 0 5px;*/
-    /*min-width: 16px;*/
 }
 
 #keyboard-state {
@@ -304,6 +287,5 @@ label:focus {
 
 #privacy-item {
     padding: 0 5px;
-    /*color: white;*/
     color: #fc9003;
 }

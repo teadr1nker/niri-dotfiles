@@ -636,7 +636,7 @@ layer-rule {
 
     popups {
         opacity 0.9
-        geometry-corner-radius 15
+        geometry-corner-radius 6
 
         background-effect {
             xray true
