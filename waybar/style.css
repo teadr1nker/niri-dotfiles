@@ -123,13 +123,13 @@ button:hover {
 }
 
 #battery {
-    background-color: #ffffff;
+    background-color: transparent;
     color: #000000;
 }
 
 #battery.charging,
 #battery.plugged {
-    color: #ffffff;
+    color: #000000;
     background-color: #82ffc3;
 }
 
@@ -143,7 +143,7 @@ button:hover {
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #fc9003;
-    color: #ffffff;
+    color: #000000;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -229,12 +229,6 @@ label:focus {
     background-color: #eb4d4b;
 }
 
-#tray {
-    background-color: #7fc8ff;
-    margin: 2px;
-    border-radius: 15px;
-}
-
 #tray > .passive {
     -gtk-icon-effect: dim;
 }
@@ -313,15 +307,3 @@ label:focus {
     /*color: white;*/
     color: #fc9003;
 }
-
-/*#privacy-item.screenshare {
-    background-color: #fc9003;
-}
-
-#privacy-item.audio-in {
-    background-color: #fc9003;
-}
-
-#privacy-item.audio-out {
-    background-color: #fc9003;
-}*/
