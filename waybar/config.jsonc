@@ -8,14 +8,14 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "niri/workspaces"
+        "niri/workspaces",
+        "niri/window"
 //         "temperature",
 //         "memory",
 //         "cpu"
 
     ],
     "modules-center": [
-        "niri/window"
     ],
     "modules-right": [
         "privacy",
