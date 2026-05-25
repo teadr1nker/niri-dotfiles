@@ -332,6 +332,8 @@ binds {
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
+    
+    Mod+B {spawn-sh "firefox";}
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Slash hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
