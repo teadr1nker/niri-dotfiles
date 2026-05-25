@@ -29,8 +29,8 @@
         // "memory",
         // "temperature",
         // "backlight",
-        "niri/language",
         "battery",
+        "niri/language",
         "clock",
         "custom/notification"
         // "tray"
